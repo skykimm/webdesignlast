@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="utf-8">
+    <title>웹디자인기능사실기</title>
+</head>
+<body>
+    <div id="wrapper" class="wrap">
+        <div class="header">
+            <div class="header_left">
+                <div class="headerlogo">로고</div>
+            </div>
+            <div class="header_right">
+                <div class="headera">
+                    <a href="#">menu1</a>
+                    <a href="#">menu2</a>
+                    <a href="#">menu3</a>
+                    <a href="#">menu4</a>
+                    
+                    <div class="menu">
+                        <div class="sub">
+                            <ul>
+                                <li>
+                                    <a href="#">submenu-1</a>
+                                    <a href="#">submenu-2</a>
+                                    <a href="#">submenu-3</a>
+                                    <a href="#">submenu-4</a>
+                                </li>
+                                 <li>
+                                    <a href="#">submenu-1</a>
+                                    <a href="#">submenu-2</a>
+                                    <a href="#">submenu-3</a>
+                                    <a href="#">submenu-4</a>
+                                </li>
+                                 <li>
+                                    <a href="#">submenu-1</a>
+                                    <a href="#">submenu-2</a>
+                                    <a href="#">submenu-3</a>
+                                    <a href="#">submenu-4</a>
+                                </li>
+                                 <li>
+                                    <a href="#">submenu-1</a>
+                                    <a href="#">submenu-2</a>
+                                    <a href="#">submenu-3</a>
+                                    <a href="#">submenu-16</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <div class="slidebox">
+                <img class="img" src="img/img1.jpg" alt="img1">
+                <img class="img" src="img/img2.jpg" alt="img2">
+                <img class="img" src="img/img3.jpg" alt="img3">
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="items">
+                <button class="btn btns" onclick="show(0)">공지사항</button>
+                <button class="btn" onclick="show(1)">갤러라</button>
+                
+                <div class="tab tabs">
+                    <p class="open" onclick="openmodal()">공지사항</p>
+                    <p>갤러리</p>
+                    <p>공지사항</p>
+                    <p>갤러리</p>
+                </div>
+                <div class="tab">
+                    <div class="gall">
+                        <img src="img/img1.jpg" alt="gall1">
+                    </div>
+                    <div class="gall">
+                        <img src="img/img2.jpg" alt="gall2">
+                    </div>
+                    <div class="gall">
+                        <img src="img/img3.jpg" alt="gall3">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="items">
+                <div class="itemsbox">바로가기</div>
+            </div>
+            <div class="items">
+                <div class="itemsbox">배너</div>
+            </div>
+        </div>
+        
+        <div class="modals">
+            <div class="modalss">
+                <span class="title">타이틀</span>
+                <span class="close" onclick="closemodal()">닫기</span>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="foot">로고</div>
+            <div class="footcenter">Copylight</div>
+            <div class="foot">패밀리사이트</div>
+        </div>
+        
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 14px;
+}
+a:link, a:visited{
+    text-decoration:none;
+    color:black;
+}
+.wrap::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#wrapper{
+    width:1000px;
+    height: 650px;
+}
+.header{
+    width:200px;
+    height: 650px;
+    float: left;
+}
+.header_top{
+    width:200px;
+    height: 40px;
+    float: left;
+}
+.headerlogo{
+    width:200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #eee;
+}
+.header_bottom{
+    width:200px;
+    height: 610px;
+    float: left;
+}
+.menu{
+    width:200px;
+    height: 50px;
+    float: left;
+    display: block;
+    position:relative;
+}
+.menu > a{
+    width:200px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    background: #eee;
+    text-align: center;
+}
+.menu > a:hover{
+    background: #ddd;
+}
+.sub{
+    width:0px;
+    height: 200px;
+    display: block;
+    position:absolute;
+    top: 0;
+    left: 100%;
+    transition:0.5s;
+    overflow: hidden;
+    z-index: 99;
+}
+.submenu{
+    width:200px;
+    height: 200px;
+    display: block;
+}
+.submenu a{
+    width:200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    background: #eee;
+}
+.submenu a:hover{
+    background: #ddd;
+}
+.menu:hover .sub{
+    width:200px;
+}
+.slide{
+    width:800px;
+    height: 350px;
+    float: left;
+    position:relative;
+    overflow: hidden;
+}
+.slidebox{
+    width:2400px;
+    height: 350px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    transition:0.5s;
+}
+.slidebox img{
+    width:800px;
+    height: 350px;
+    float: left;
+    display: block;
+}
